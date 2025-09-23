@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shounak Das | Portfolio</title>
+    <style>
+        /* Basic reset and styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #58a6ff;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+
+        .projects {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .project {
+            background-color: #161b22;
+            padding: 20px;
+            border-radius: 12px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        }
+
+        .project-title {
+            font-weight: bold;
+            color: #f85149;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #8b949e;
+        }
+
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+<body>
+    <img src="Photograph.JPG" alt="Shounak Das" width="200" height="262";>
+    <div class="container">
+        <h1>Shounak Das</h1>
+        <p>Programmer mindset is everything — I'm a code-focused aspiring developer analyst specializing in rapid prototyping, from stock price prediction engines to ambulance dispatch systems and location tracking solutions.</p>
+        <div class="projects">
+            <div class="project">
+                <div class="project-title">Stock Price Prediction Engine</div>
+                <p>Built a Python-based ML model to predict stock prices and visualize trends using historical data.</p>
+            </div>
+            <div class="project">
+                <div class="project-title">Ambulance Dispatch System</div>
+                <p>Developed a real-time tracking system for ambulance routing and status updates using Python and PostgreSQL.</p>
+            </div>
+        </div>
+        <footer>
+            © 2025 Shounak Das |<p>Email: dasshounak2003@gmail.com</p><p>>Phone: 98306665956</p>
+        </footer>
+    </div>
+</body>
+</html>
